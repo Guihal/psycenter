@@ -21,7 +21,7 @@ let AInterval = setInterval(() =>{
 const pageTitle = document.querySelector(".liner-container");
 if(pageTitle){
     if(pageTitle.textContent.includes("Тренинг | Расписание в Минске")){
-        const listPsy = new map([
+        const listPsy = new Map([
             ["Дубовик"],["https://psycenter.by/psychologists/elena_dubovik_psiholog"],
             ["Кобринец"],["https://psycenter.by/psychologists/natalyya_kobrinec_psiholog"],
             ["Ефремова"],["https://psycenter.by/psychologists/anna_efremova_psiholog"],
